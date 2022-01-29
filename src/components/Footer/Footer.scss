@@ -1,0 +1,33 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    height: 10vh;
+    border-top: 1px solid #ccc;
+
+    border-image: linear-gradient(
+				to bottom right,
+				red,
+				orange,
+				yellow,
+				green,
+				blue,
+				indigo,
+				violet,
+				red
+			);
+			border-image-slice: 1;
+
+    p{
+        font-size: 18px;
+        span{
+            background-image: linear-gradient(0deg, #f00 25%, #ffb300 60%);
+    color: #0000;
+    -webkit-background-clip: text;
+    background-clip: text;
+        }
+    }
+}
